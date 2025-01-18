@@ -16,7 +16,6 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  const viewGreeting = greeting.display;
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
