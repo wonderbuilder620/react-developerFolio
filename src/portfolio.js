@@ -238,7 +238,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/rozetka.png"),
-      projectName: "Rozetka",
+      projectName: "Building Website of ROZETKA",
       projectDesc: [
         "Summary: ROZETKA is the largest online retailer in the country. We sell at a fair price and provide a guarantee, because we believe that online shopping should be as convenient and safe as possible.",
         "Stack: Angular, Zone.js, TypeScript, PWA, Open Graph",
@@ -253,7 +253,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/itc.png"),
-      projectName: "IT Community",
+      projectName: "IT Community website",
       projectDesc: [
         "Summary: ITC.ua is one of Ukraine's leading technology and IT news websites. It covers a broad range of technology, gadgets, software, providing up-to-date information and insights.",
         "Stack: WordPress, Redis, MySQL, Fancybox, Slick, Nginx",
@@ -268,7 +268,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/rijszwaan.png"),
-      projectName: "Rijk Zwaan",
+      projectName: "Contributing Backend of Rijk Zwaan",
       projectDesc: [
         "Summary: Rijk Zwaan is the Ukrainian subsidiary of Rijk Zwaan, a global leader in vegetable breeding and seed production. Established in Ukraine in 1998, the company officially registered its subsidiary in 2000.",
         "Stack: Angluar, Zone.js, TypeScript, Node.js, Express, CivicTheme",
@@ -285,7 +285,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/naurok.png"),
-      projectName: "Na urok",
+      projectName: "Na Urok online educational platform",
       projectDesc: [
         "Summary: Na Urok is a popular online educational platform in Ukraine that provides resources for teachers, students, and parents. It offers a wide range of materials to enhance the learning process.",
         "Stack: Angular, PHP, Firebase, Yii, LightBox, core-js, Bootstrap, KaTex",
@@ -301,7 +301,7 @@ const bigProjects = {
 
     {
       image: require("./assets/images/newline.PNG"),
-      projectName: "Newline",
+      projectName: "Newline Community maintaining",
       projectDesc: [
         "Summary: Learn how to build a full stack web app to visualize personalized Spotify data with the help of Node.js, React, Styled Components, and the Spotify Web API. I mainly did Styling components.",
         "Stack: React, Next.js, GraphQL, TypeScript",
@@ -316,7 +316,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/liceo.png"),
-      projectName: "Liceo",
+      projectName: "Official Website of Liceo de Arte y Tecnología",
       projectDesc: [
         "Summary: The mission of the Liceo de Arte y Tecnología is to prepare professionals to work in their chosen field, offering an excellent educational experience and placing the individual at the center of professional training.",
         "Stack: PHP, WordPress, MySQL, Swiper, jQuery, core-js, RankMath SEO",
@@ -331,7 +331,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextu.PNG"),
-      projectName: "Nextu",
+      projectName: "Next u - A recruitment and staffing company",
       projectDesc: [
         "Summary: Next u is a recruitment and staffing company in Stockholm. We who work here have many years of experience working with video-based, digital recruitment.",
         "Stack: WordPress, VideoJS, MySQL, LiteSpeed, RSS, Open Graph, HTTP/3",
@@ -347,7 +347,7 @@ const bigProjects = {
 
     {
       image: require("./assets/images/astro.PNG"),
-      projectName: "Astro",
+      projectName: "Development of Astro",
       projectDesc: [
         "Summary: The web framework for content-driven websites. Astro powers the world's fastest marketing sites, blogs, e-commerce websites, and more.",
         "Stack: Fanthom, Astro, Tailwind CSS, RSS, OpenGraph, Netlify",
@@ -362,7 +362,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/sports-website.PNG"),
-      projectName: "Sanabbil Sports",
+      projectName: "Building Sanabbil Sports",
       projectDesc: [
         "Summary: Our priority has always been people who love and enjoy sports and find joy in it. Our website serves them. That is, experts in a particular field can use their knowledge and experience to create the best products.",
         "Stack: HSTS, FoneAwesome, AOS, Cloudflare",
@@ -377,7 +377,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/Quick Store.png"),
-      projectName: "Quick Store",
+      projectName: "Quick Store - Bringing innovation",
       projectDesc: [
         "Summary: A simple Astro and Tailwind CSS template for your store. Embed products from services like Gumroad or Lemonsqueezy.",
         "Stack: Astro, HSTS, PWA, Open Graph, Vercel",
@@ -394,7 +394,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/blackberry.png"),
-      projectName: "BlackBerry",
+      projectName: "Backend development with BlackBerry",
       projectDesc: [
         "Summary: The company has transitioned from its original focus on mobile devices to becoming a leader in cybersecurity, assisting businesses, government agencies, and safety-critical institutions.",
         "Stack: Java, GSAP, LottieFiles, lit-html, LazySizes, AWS",
@@ -411,7 +411,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gimnasio.png"),
-      projectName: "Gimnasio Fontana",
+      projectName: "Wonderful website of Gimnasio Fontana",
       projectDesc: [
         "Summary: The school has been reaccredited by the Council of International Schools (CIS) on December 17, 2024, reflecting its commitment to high-quality international educational standards.",
         "Stack: WordPress, SLick, jQuery, MySQL, PHP",
