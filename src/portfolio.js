@@ -234,21 +234,89 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/rozetka.png"),
+      projectName: "Rozetka",
+      projectDesc: [
+        "Summary: ROZETKA is the largest online retailer in the country. We sell at a fair price and provide a guarantee, because we believe that online shopping should be as convenient and safe as possible.",
+        "Stack: Angular, Zone.js, TypeScript, PWA, Open Graph",
+        "Responsibility: An experienced frontend engineer in building modern and high-performance web applications using Angular and TypeScript. Focused on delivering dynamic user experiences with Progressive Web Apps (PWA) capabilities and enhanced social media integration."
+      ],
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://rozetka.com.ua/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/itc.png"),
+      projectName: "IT Community",
+      projectDesc: [
+        "Summary: ITC.ua is one of Ukraine's leading technology and IT news websites. It covers a broad range of technology, gadgets, software, providing up-to-date information and insights.",
+        "Stack: WordPress, Redis, MySQL, Fancybox, Slick, Nginx",
+        "Responsibility: An expert in crafting scalable WordPress websites, integrating caching strategies, dynamic content rendering, and modern user interface solutions. Skilled in managing server-side resources and delivering fast-loading, interactive web experiences."
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://itc.ua/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/naurok.png"),
+      projectName: "Na urok",
+      projectDesc: [
+        "Summary: Na Urok is a popular online educational platform in Ukraine that provides resources for teachers, students, and parents. It offers a wide range of materials to enhance the learning process.",
+        "Stack: Angular, PHP, Firebase, Yii, LightBox, core-js, Bootstrap, KaTex",
+        "Responsibility: I combined frontend frameworks like Angular with robust backend technologies like PHP and Yii for seamless, data-driven user experiences. Skilled in integrating real-time services and responsive design tools."
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://rozetka.com.ua/"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/newline.PNG"),
+      projectName: "Newline",
+      projectDesc: [
+        "Summary: Learn how to build a full stack web app to visualize personalized Spotify data with the help of Node.js, React, Styled Components, and the Spotify Web API. I mainly did Styling components.",
+        "Stack: React, Next.js, GraphQL, TypeScript",
+        "Responsibility: A forward-thinking web dev professional focused on crafting scalable, high-performance applications with React and Next.js. Committed to delivering seamless user experiences using GraphQL for efficient data fetching and TypeScript for type-safe, maintainable codebases."
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.newline.co/courses/build-a-spotify-connected-app"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/liceo.png"),
+      projectName: "Liceo",
+      projectDesc: [
+        "Summary: The mission of the Liceo de Arte y Tecnología is to prepare professionals to work in their chosen field, offering an excellent educational experience and placing the individual at the center of professional training.",
+        "Stack: PHP, WordPress, MySQL, Swiper, jQuery, core-js, RankMath SEO",
+        "Responsibility: An experienced developer specializing in building custom WordPress solutions, dynamic user interfaces, and SEO-optimized websites. Proficient in scalable, and user-friendly websites."
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.liceo.edu/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextu.PNG"),
       projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: [
+        "Summary: Next u is a digital recruitment & staffing company. With our help, you don't have to look at a bunch of CVs that look the same and instead get the candidates presented with a video.",
+        "Stack: WordPress, VideoJS, MySQL, LiteSpeed, RSS, Open Graph, HTTP/3",
+        "Responsibility: With a passion for integrating technologies and performance optimization, this role emphasizes expertise in managing large-scale websites, delivering immersive media experiences, and fine-tuning server performance."
+      ],
       footerLink: [
         {
           name: "Visit Website",
@@ -256,75 +324,50 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
 
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/astro.PNG"),
+      projectName: "Astro",
+      projectDesc: [
+        "Summary: The web framework for content-driven websites. Astro powers the world's fastest marketing sites, blogs, e-commerce websites, and more.",
+        "Stack: Fanthom, Astro, Tailwind CSS, RSS, OpenGraph, Netlify",
+        "Responsibility: A tech-savvy web developer focused on building performance-optimized, user-centric, and secure websites using the latest static site generation, styling frameworks, and deployment strategies. Skilled in delivering fast, scalable, and dynamic content with minimal complexity."
+      ],
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://astro.build/showcase/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sports-website.PNG"),
+      projectName: "Sanabbil Sports",
+      projectDesc: [
+        "Summary: Our priority has always been people who love and enjoy sports and find joy in it. Our website serves them. That is, experts in a particular field can use their knowledge and experience to create the best products.",
+        "Stack: HSTS, FoneAwesome, AOS, Cloudflare",
+        "Responsibility: A web developer proficient in creating robust, visually engaging, and secure websites by integrating modern tools and best practices. Adept at delivering responsive designs with a focus on performance and user experience."
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sports-website-three.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Quick Store.png"),
+      projectName: "Quick Store",
+      projectDesc: [
+        "Summary: A simple Astro and Tailwind CSS template for your store. Embed products from services like Gumroad or Lemonsqueezy.",
+        "Stack: Astro, HSTS, PWA, Open Graph, Vercel",
+        "Responsibility: Bringing innovation and performance together, I specialize in crafting websites and applications with a focus on speed, scalability, and enhanced user experience. Leveraging the latest technologies, security measures, and deployment platforms, I transform creative visions into dynamic web solutions."
+      ],
+
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://quickstorre.vercel.app/"
         }
         //  you can add extra buttons here.
       ]

@@ -10,7 +10,7 @@ import {
   openSource,
   // blogSection,
   // talkSection,
-  achievementSection,
+  // achievementSection,
   resumeSection,
   educationInfo,
   bigProjects
@@ -21,7 +21,7 @@ function Header() {
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
-  const viewAchievement = achievementSection.display;
+  // const viewAchievement = achievementSection.display;
   const viewEducation = educationInfo.display;
   const viewProjects = bigProjects.display;
   const viewResume = resumeSection.display;

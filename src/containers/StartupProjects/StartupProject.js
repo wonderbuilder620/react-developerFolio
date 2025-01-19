@@ -63,7 +63,11 @@ export default function StartupProject() {
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
                       }
                     >
-                      {project.projectDesc}
+                      <ol>
+                        {project.projectDesc.map(item => {
+                          return <li style={{textAlign: "justify"}}>{item}</li>;
+                        })}
+                      </ol>
                     </p>
                     {project.footerLink ? (
                       <div className="project-card-footer">

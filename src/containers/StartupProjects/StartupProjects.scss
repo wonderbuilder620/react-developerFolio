@@ -3,7 +3,7 @@
 .card-image {
   max-width: 100%;
   height: auto;
-  width: 250px;
+  width: 100%;
 }
 .card-title {
   color: $titleColor;
@@ -51,7 +51,7 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
+  height: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -71,7 +71,7 @@
   align-items: center;
   border-radius: 4px;
   display: inline-flex;
-  font-size: 0.75rem;
+  font-size: 1.75rem;
   height: 2em;
   justify-content: center;
   white-space: nowrap;
