@@ -56,6 +56,9 @@ const skillsSection = {
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
+      "⚡ Build and maintain Back end systems using modern frameworks, ensuring high-performance and data integrity"
+    ),
+    emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
   ],
