@@ -8,10 +8,12 @@ import {
   workExperiences,
   skillsSection,
   openSource,
-  blogSection,
-  talkSection,
+  // blogSection,
+  // talkSection,
   achievementSection,
-  resumeSection
+  resumeSection,
+  educationInfo,
+  bigProjects
 } from "../../portfolio";
 
 function Header() {
@@ -20,8 +22,8 @@ function Header() {
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
+  const viewEducation = educationInfo.display;
+  const viewProjects = bigProjects.display;
   const viewResume = resumeSection.display;
 
   return (
@@ -51,22 +53,27 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
-          {viewExperience && (
+          {viewEducation && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#education">Education</a>
             </li>
           )}
-          {/* {viewOpenSource && (
+          {viewExperience && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#experience">Employeement</a>
             </li>
-          )} */}
-          {viewAchievement && (
+          )}
+          {viewProjects && (
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+          )}
+          {/* {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
             </li>
-          )}
-          {viewBlog && (
+          )} */}
+          {/* {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
             </li>
@@ -75,7 +82,7 @@ function Header() {
             <li>
               <a href="#talks">Talks</a>
             </li>
-          )}
+          )} */}
           {viewResume && (
             <li>
               <a href="#resume">Resume</a>

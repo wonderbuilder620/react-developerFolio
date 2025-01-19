@@ -36,10 +36,10 @@ const socialMediaLinks = {
   github: "https://github.com/wonderbuilder620",
   linkedin: "https://www.linkedin.com/in/wonderbuilder620/",
   gmail: "sergil122132@gmail.com",
-  gitlab: "https://gitlab.com/wonderbuilder620",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@wonderbuilder620",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  // gitlab: "https://gitlab.com/wonderbuilder620",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@wonderbuilder620",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -81,20 +81,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Vue.js",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
+      skillName: "PHP",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "sql-database",
@@ -179,7 +187,16 @@ const workExperiences = {
       company: "SoftServe",
       companylogo: require("./assets/images/SoftServe.png"),
       date: "September 2021 – October 2024",
-      desc: "Designed and developed dynamic web applications, ensuring scalability and responsiveness across various devices. Collaborated with cross-functional teams to deliver customized software solutions for clients in industries like fintech, e-commerce, and healthcare. Built and maintained backend systems using modern frameworks, ensuring high-performance and data integrity. Developed and integrated frontend interfaces for seamless user experiences. Participated in code reviews to maintain quality standards and improve team efficiency. Implemented unit testing and debugging processes to ensure software reliability and minimize downdtime. Worked in an Agile environment, contributing to sprint planning, daily stand-ups, and retrospective meetings. Gained experience in blockchain-based web3 solutions and other emerging technologies."
+      desc: [
+        "Designed and developed dynamic web applications, ensuring scalability and responsiveness across various devices.",
+        "Collaborated with cross-functional teams to deliver customized software solutions for clients in industries like fintech, e-commerce, and healthcare.",
+        "Built and maintained backend systems using modern frameworks, ensuring high-performance and data integrity.",
+        "Developed and integrated frontend interfaces for seamless user experiences.",
+        "Participated in code reviews to maintain quality standards and improve team efficiency.",
+        "Implemented unit testing and debugging processes to ensure software reliability and minimize downdtime.",
+        "Worked in an Agile environment, contributing to sprint planning, daily stand-ups, and retrospective meetings.",
+        "Gained experience in blockchain-based web3 solutions and other emerging technologies."
+      ]
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -190,7 +207,14 @@ const workExperiences = {
       company: "Stfalcon",
       companylogo: require("./assets/images/Stfalcon.png"),
       date: "December 2019 – August 2021",
-      desc: "Built and maintained scalable web applications using modern development practices. Collaborated with cross-functional teams in an Agile environment, participating in daily stand-ups, sprint planning, and retrospectives. Conducted code reviews to ensure quality, consistency, and adherence to best practices. Wrote unit tests to maintain code reliability and reduce bugs in production. Enhanced skills in front-end and back-end development while learning advanced debugging and optimization techniques. Contributed to delivering client projects on time while ensuring high performance and user satisfaction."
+      desc: [
+        "Built and maintained scalable web applications using modern development practices.",
+        "Collaborated with cross-functional teams in an Agile environment, participating in daily stand-ups, sprint planning, and retrospectives.",
+        "Conducted code reviews to ensure quality, consistency, and adherence to best practices.",
+        "Wrote unit tests to maintain code reliability and reduce bugs in production.",
+        "Enhanced skills in front-end and back-end development while learning advanced debugging and optimization techniques.",
+        "Contributed to delivering client projects on time while ensuring high performance and user satisfaction."
+      ]
     }
   ]
 };
@@ -206,7 +230,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Previous Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -230,6 +254,79 @@ const bigProjects = {
           name: "Visit Website",
           url: "http://nextu.se/"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
