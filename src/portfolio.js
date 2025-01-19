@@ -267,6 +267,23 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/rijszwaan.png"),
+      projectName: "Rijk Zwaan",
+      projectDesc: [
+        "Summary: Rijk Zwaan is the Ukrainian subsidiary of Rijk Zwaan, a global leader in vegetable breeding and seed production. Established in Ukraine in 1998, the company officially registered its subsidiary in 2000.",
+        "Stack: Angluar, Zone.js, TypeScript, Node.js, Express, CivicTheme",
+        "Responsibility: An accomplished full-stack JavaScript developer. Focused on creating scalable, maintainable, and accessible web applications using Angular and Node.js. Expertise in implementing CivicTheme for consistent, user-centric design systems."
+      ],
+
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://rijkzwaan.ua/home"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/naurok.png"),
       projectName: "Na urok",
       projectDesc: [
@@ -277,7 +294,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://rozetka.com.ua/"
+          url: "https://naurok.com.ua/"
         }
       ]
     },
@@ -316,7 +333,7 @@ const bigProjects = {
       image: require("./assets/images/nextu.PNG"),
       projectName: "Nextu",
       projectDesc: [
-        "Summary: Next u is a digital recruitment & staffing company. With our help, you don't have to look at a bunch of CVs that look the same and instead get the candidates presented with a video.",
+        "Summary: Next u is a recruitment and staffing company in Stockholm. We who work here have many years of experience working with video-based, digital recruitment.",
         "Stack: WordPress, VideoJS, MySQL, LiteSpeed, RSS, Open Graph, HTTP/3",
         "Responsibility: With a passion for integrating technologies and performance optimization, this role emphasizes expertise in managing large-scale websites, delivering immersive media experiences, and fine-tuning server performance."
       ],
@@ -371,6 +388,40 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://quickstorre.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/blackberry.png"),
+      projectName: "BlackBerry",
+      projectDesc: [
+        "Summary: The company has transitioned from its original focus on mobile devices to becoming a leader in cybersecurity, assisting businesses, government agencies, and safety-critical institutions.",
+        "Stack: Java, GSAP, LottieFiles, lit-html, LazySizes, AWS",
+        "Responsibility: An innovative developer specializing in dynamic web animations, efficient templating, and scalable cloud solutions. Proficient in backend development with Java, advanced animation techniques, and cloud-based deployment strategies to create engaging and high-performing applications."
+      ],
+
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.blackberry.com/ja/jp"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/gimnasio.png"),
+      projectName: "Gimnasio Fontana",
+      projectDesc: [
+        "Summary: The school has been reaccredited by the Council of International Schools (CIS) on December 17, 2024, reflecting its commitment to high-quality international educational standards.",
+        "Stack: WordPress, SLick, jQuery, MySQL, PHP",
+        "Responsibility: An experienced WordPress developer skilled in creating dynamic, database-driven websites with interactive frontend components. Proficient in building custom themes and plugins, managing databases, and enhancing user experiences with modern web technologies."
+      ],
+
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://gimnasiofontana.edu.co/"
         }
         //  you can add extra buttons here.
       ]
