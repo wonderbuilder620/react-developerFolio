@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/wonderbuilder620",
-  linkedin: "https://www.linkedin.com/in/wonderbuilder620/",
+  linkedin: "https://www.linkedin.com/in/serhii-tonkonozhenko-115266347/",
   gmail: "sergil122132@gmail.com",
   // gitlab: "https://gitlab.com/wonderbuilder620",
   // facebook: "https://www.facebook.com/saad.pasta7",
@@ -206,7 +206,7 @@ const workExperiences = {
       // ]
     },
     {
-      role: "Web Developer",
+      role: "Senior React Developer",
       company: "Stfalcon",
       companylogo: require("./assets/images/Stfalcon.png"),
       date: "December 2019 – August 2021",
