@@ -58,17 +58,21 @@ export default function StartupProject() {
                     >
                       {project.projectName}
                     </h5>
-                    <p
+                    <div
                       className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
                       }
                     >
                       <ol>
-                        {project.projectDesc.map(item => {
-                          return <li style={{textAlign: "justify"}}>{item}</li>;
+                        {project.projectDesc.map((item, key) => {
+                          return (
+                            <li key={key} style={{textAlign: "justify"}}>
+                              {item}
+                            </li>
+                          );
                         })}
                       </ol>
-                    </p>
+                    </div>
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {

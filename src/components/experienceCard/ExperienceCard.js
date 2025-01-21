@@ -66,7 +66,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         >
           {cardInfo.date}
         </h5>
-        <p
+        <div
           className={
             isDark
               ? "subTitle experience-text-desc dark-mode-text"
@@ -74,11 +74,15 @@ export default function ExperienceCard({cardInfo, isDark}) {
           }
         >
           <ul>
-            {cardInfo.desc.map(item => {
-              return <li style={{textAlign: "justify"}}>{item}</li>;
+            {cardInfo.desc.map((item, key) => {
+              return (
+                <li key={key} style={{textAlign: "justify"}}>
+                  {item}
+                </li>
+              );
             })}
           </ul>
-        </p>
+        </div>
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
