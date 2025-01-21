@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-developerFolio/static/css/main.0a97765b.css",
-    "main.js": "/react-developerFolio/static/js/main.a38167a4.js",
+    "main.js": "/react-developerFolio/static/js/main.54d0c299.js",
     "static/css/64.bba8fa55.chunk.css": "/react-developerFolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/react-developerFolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/react-developerFolio/static/css/769.b3cbb36b.chunk.css",
@@ -19,7 +19,7 @@
     "static/media/nextu.PNG": "/react-developerFolio/static/media/nextu.3cac7a3e030ec683f02f.PNG",
     "static/media/Montserrat-Regular.ttf": "/react-developerFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/naurok.png": "/react-developerFolio/static/media/naurok.3ba718d2ebf2ef6252a9.png",
-    "static/media/SerhiiTonkonozhenkoResume.pdf": "/react-developerFolio/static/media/SerhiiTonkonozhenkoResume.601a20301236da1e5dbb.pdf",
+    "static/media/YriiTokarResume.pdf": "/react-developerFolio/static/media/YriiTokarResume.b038f29434867edb4e48.pdf",
     "static/media/NTUU-KPI-logo.jpg": "/react-developerFolio/static/media/NTUU-KPI-logo.ea4fc2150b0e51e1f1a6.jpg",
     "static/media/Agustina.woff": "/react-developerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/react-developerFolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -32,7 +32,7 @@
     "static/media/pwaLogo.webp": "/react-developerFolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/react-developerFolio/index.html",
     "main.0a97765b.css.map": "/react-developerFolio/static/css/main.0a97765b.css.map",
-    "main.a38167a4.js.map": "/react-developerFolio/static/js/main.a38167a4.js.map",
+    "main.54d0c299.js.map": "/react-developerFolio/static/js/main.54d0c299.js.map",
     "64.bba8fa55.chunk.css.map": "/react-developerFolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/react-developerFolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/react-developerFolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -40,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.0a97765b.css",
-    "static/js/main.a38167a4.js"
+    "static/js/main.54d0c299.js"
   ]
 }
