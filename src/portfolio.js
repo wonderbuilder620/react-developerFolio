@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Serhii Tonkonozhenko",
-  title: "Hi! I'm Serhii",
+  username: "Yrii Tokar",
+  title: "Hi! I'm Yrii",
   subTitle: emoji(
-    "An innovative Full Stack Developer | Web & Blockchain Specialist 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Professional Full Stack Developer | Web & App Specialist 🚀 having experiences of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1O4qXneuUO1fyXUbSIw9qFRX1LlwWNDCu/view?usp=sharing", // Set to empty to hide the button
@@ -34,8 +34,8 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/wonderbuilder620",
-  linkedin: "https://www.linkedin.com/in/serhii-tonkonozhenko-115266347/",
-  gmail: "sergil122132@gmail.com",
+  linkedin: "https://www.linkedin.com/in/yrii-tokar-30822b347/",
+  gmail: "tokaryrii@gmail.com",
   // gitlab: "https://gitlab.com/wonderbuilder620",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@wonderbuilder620",
@@ -560,8 +560,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+38-0637371463",
-  email_address: "sergil122132@gmail.com"
+  // number: "+38-0637371463",
+  email_address: "tokaryrii@gmail.com"
 };
 
 // Twitter Section

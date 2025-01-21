@@ -21,11 +21,11 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            Serhii T.
+            Yrii T.
           </a>
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          ©2025, Made by Serhii Tonkonozhenko
+          ©2025, Made by Yrii Tokar
         </p>
       </div>
     </Fade>
