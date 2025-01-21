@@ -1,5 +1,4 @@
 {
-  "homepage": "https://wonderbuilder620.github.io/react-developerFolio/",
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -54,5 +53,6 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "dotenv": "^8.2.0",
     "prettier": "^2.3.1"
-  }
+  },
+  "homepage": "https://wonderbuilder620.github.io/react-developerFolio/"
 }
